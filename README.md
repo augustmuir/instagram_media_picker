@@ -13,5 +13,7 @@ https://pub.dev/packages/instagram_media_picker
 **Credits**
 
 Developed by August Kimacovich.
+
 @augustkimo
+
 https://www.idality.dev

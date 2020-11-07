@@ -1,6 +1,6 @@
 # instagram_media_picker
 
-This package fetches a Instagram users media using the Instagram Basic Display API, then allows them to select photos.
+This package fetches a Instagram users media using the Instagram Basic Display API then allows them to select photos.
 
 The package handles Instagram Authentication then returns the users media including the captions, ids, media URLs, and timestamps.
 

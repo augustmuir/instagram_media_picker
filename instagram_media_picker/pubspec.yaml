@@ -1,0 +1,21 @@
+name: instagram_media_picker
+description: Fetches a Instagram users images, and allows them to select images.
+version: 0.0.1
+homepage: https://www.idality.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.2.3
+  flutter_webview_plugin: ^0.3.11
+  http: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

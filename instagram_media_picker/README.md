@@ -1,14 +1,22 @@
 # instagram_media_picker
 
-A new Flutter package project.
+This package fetches a Instagram users media using the Instagram Basic Display API, then allows them to select photos.
 
-## Getting Started
+The package handles Instagram Authentication then returns the users media including the captions, ids, media URLs, and timestamps.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+If you want to just get the media and build your own picker, check out my other package instagram_media: https://pub.dev/packages/instagram_media
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+**Usage**
+```
+ final result = await Navigator.push(context, MaterialPageRoute(
+    builder: (context) => InstagramMediaPicker(
+        appID: '7080000000000', //IG app ID from FB Developer Account
+        appSecret: '3752x0x0x0x0x0x0x0x0x0' //App Secret
+    )
+));
+
+print(result[0]); //URLs
+print(result[1]); //IDs
+print(result[2]); //Captions
+print(result[3]); //Timestamps
+```

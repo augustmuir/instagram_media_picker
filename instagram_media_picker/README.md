@@ -20,3 +20,8 @@ print(result[1]); //IDs
 print(result[2]); //Captions
 print(result[3]); //Timestamps
 ```
+
+**Credits**
+Developed by August Kimacovich.
+@augustkimo
+https://www.idality.dev

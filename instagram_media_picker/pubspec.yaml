@@ -1,7 +1,7 @@
 name: instagram_media_picker
 description: Fetches a Instagram users images, and allows them to select images.
 version: 0.0.1
-homepage: https://www.idality.dev
+homepage: https://github.com/augustkimo/instagram_media_picker
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

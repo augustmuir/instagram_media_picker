@@ -1,6 +1,6 @@
 name: instagram_media_picker
 description: Fetches a Instagram users images, and allows them to select images.
-version: 0.0.1
+version: 0.0.11
 homepage: https://github.com/augustkimo/instagram_media_picker
 
 environment:

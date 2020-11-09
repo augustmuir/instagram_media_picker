@@ -6,6 +6,11 @@ The package handles Instagram Authentication then returns the users media includ
 
 If you want to just get the media and build your own picker, check out my other package instagram_media: https://pub.dev/packages/instagram_media
 
+**Video Walkthrough and Setup**
+https://www.youtube.com/watch?v=Emypa7YLAhI
+
+Please like/subscribe on YouTube and leave a like on pub.dev if this helped you!
+
 **Usage**
 ```
  final result = await Navigator.push(context, MaterialPageRoute(

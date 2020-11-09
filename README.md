@@ -7,4 +7,13 @@ The package handles Instagram Authentication then returns the users media includ
 If you want to just get the media and build your own picker, check out my other package instagram_media: https://pub.dev/packages/instagram_media
 
 **More Details on Pub.Dev**
+
 https://pub.dev/packages/instagram_media_picker
+
+**Credits**
+
+Developed by August Kimacovich.
+
+@augustkimo
+
+https://www.idality.dev
